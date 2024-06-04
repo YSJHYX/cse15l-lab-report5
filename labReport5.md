@@ -36,9 +36,9 @@ I realized that I mistakenly used $0 instead of $1 to refer to the first argumen
 Directory Structure:
 
 ```
-HW
-    numCount.java
-    test.sh
+-HW
+  -numCount.java
+  -test.sh
 ```
 
 Files Before Fixing the Bug:
