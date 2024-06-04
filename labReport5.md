@@ -4,7 +4,7 @@
 
 ## Student Post
 
-Hi, I want to ask a question about this week's homework. I have finished it, but when I ran the `test.sh`, I found the output result was wrong: it didn't correctly print the length of my input `StudentTest`, the length should be 11. Can you help me check if I made any mistakes in my code? Thanks! Below is my code and screenshot of the incorrect output.
+Hi, I want to ask a question about this week's homework. I have finished it, but when I ran the `test.sh`, I found the output result was wrong: it didn't correctly print the length of my input `StudentTest`, the length should be `11`. Can you help me check if I made any mistakes in my code? Thanks! Below is my code and screenshot of the incorrect output.
 
 ```
 class numCount {
@@ -31,7 +31,7 @@ javac *.java
 java numCount $0
 ```
 
-I realized that I mistakenly used $0 instead of $1 to refer to the first argument. So, when I ran `bash test.sh StudentTest` in the terminal, the program took `test.sh` as the input argument and printed the length of it rather than the length of my expected input argument (`StudentTest`). Right now, I have fixed it by changing `$0` to `$1` in `test.sh`. Thanks again for your help!
+I realized that I mistakenly used `$0` instead of `$1` to refer to the first argument. So, when I ran `bash test.sh StudentTest` in the terminal, the program took `test.sh` as the input argument and printed the length of it rather than the length of my expected input argument (`StudentTest`). Right now, I have fixed it by changing `$0` to `$1` in `test.sh`. Thanks again for your help!
 
 ## Setup information
 
