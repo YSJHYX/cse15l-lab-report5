@@ -68,3 +68,14 @@ The Full Command Line I Ran to Trigger the Bug:
 Description of Bug Fixing:
 
 I changed `$0` in `test.sh`, which refers to the wrong argument, to `$1`, which refers to the expected input argument.
+
+After fixing the bug, the file `test.sh` is
+
+```
+javac *.java
+java numCount $1
+```
+
+The correct output is:
+
+![Image](correct.png)
