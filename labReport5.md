@@ -79,3 +79,9 @@ java numCount $1
 The correct output is:
 
 ![Image](correct.png)
+
+# Reflection
+
+In this course, I have learned a lot of useful knowledge about software tools and techniques. Especially the part about the common use of Vim, the powerful text editor. After learning it, I can edit my code file more efficiently and faster than before! I am sure that I will use it more in the future. 
+
+Finally, thanks to Prof.Edwin and every TA's contribution to this course, I really enjoyed it and learned a lot!
